@@ -1,0 +1,9 @@
+include 'CodeChickenLib'
+include 'CodeChickenCore'
+include 'NotEnoughItems'
+
+rootProject.name = 'CodeChickenWorkspace'
+
+rootProject.children.each {project ->
+	project.projectDir = new File (settingsDir, project.name + "/build")
+	}

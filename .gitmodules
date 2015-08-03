@@ -1,0 +1,9 @@
+[submodule "CodeChickenCore"]
+	path = CodeChickenCore
+	url = git@github.com:Chicken-Bones/CodeChickenCore.git
+[submodule "CodeChickenLib"]
+	path = CodeChickenLib
+	url = git@github.com:Chicken-Bones/CodeChickenLib.git
+[submodule "NotEnoughItems"]
+	path = NotEnoughItems
+	url = git@github.com:Chicken-Bones/NotEnoughItems.git
